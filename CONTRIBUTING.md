@@ -20,11 +20,13 @@ Fork the repo and make changes on your fork in a feature branch based on the mas
 
 ## How Can I Contribute to Komiser Dashboard?
 
+* Ensure that your go version supports `go.mod` (>= 1.11)
+
 * Clone the project
 * Install Go dependencies:
 
 ```
-go get -v
+go mod download
 ```
 
 * Switch to public folder and install npm dependencies and angular cli:
