@@ -111,6 +111,7 @@ func listOfSupportedServices() []providers.FetchDataFunction {
 		ec2.SpotInstanceRequests,
 		ec2.KeyPairs,
 		ec2.PlacementGroups,
+		ec2.NetworkInsightsAnalyses,
 		systemsmanager.MaintenanceWindows,
 		systemsmanager.GetManagedEc2,
 		ec2.VpcEndpoints,

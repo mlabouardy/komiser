@@ -33,6 +33,7 @@ export const allProvidersServices: { [key in Providers]: string[] } = {
     'ec2',
     'internet gateway',
     'ec2 keypair',
+    'ec2 network insights analysis',
     'network interface',
     'ec2 placement group',
     'security group',
