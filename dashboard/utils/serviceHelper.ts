@@ -75,6 +75,7 @@ export const allProvidersServices: { [key in Providers]: string[] } = {
     'service catalog application',
     'sns',
     'sqs',
+    'ssm association',
     'ssm maintenance window'
   ],
   azure: [
