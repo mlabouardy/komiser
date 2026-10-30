@@ -113,6 +113,7 @@ func listOfSupportedServices() []providers.FetchDataFunction {
 		ec2.PlacementGroups,
 		systemsmanager.MaintenanceWindows,
 		systemsmanager.GetManagedEc2,
+		systemsmanager.Associations,
 		ec2.VpcEndpoints,
 		ec2.VpcPeeringConnections,
 		kinesis.Streams,
